@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    background-image: url(flat-lay-workstation-with-copy-space-laptop.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color: ivory;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+h1{
+    color: ivory;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+label{
+    margin: 90px 80px 90px 0px;
+    
+}
+.entry-field{
+    margin: 8px;
+    border-color: rgb(168, 168, 168);
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.cellnumber{
+    margin: 8px 0px ;
+    border-color: rgb(168, 168, 168);
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 10px 9px;
+    margin-left: 16px;
+}
+.message{
+    margin: 8px;
+    border-color: rgb(168, 168, 168);
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 5px 215px 90px 215px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+}
+#first, #last{
+    padding-right: 110px;
+}
+#email{
+    padding-right: 417px;
+    margin-left: 12px;
+}
+#selector{
+    padding-right: 330px;
+    margin-left: -40px;
+}
+::placeholder{
+    font-weight: lighter;
+    color: rgb(194, 192, 192);
+}
+.submit{
+    background-color: transparent;
+    border-color: ivory;
+    color: ivory;
+    border-radius: 2px;
+    border-width: thin;
+    border-style: groove;
+    padding: 10px 25px 10px 25px;
+    margin-top: 10px;
+}
+hr{
+    margin-right: 15px;
+    border-radius: 6px;
+}

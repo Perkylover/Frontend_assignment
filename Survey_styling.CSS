@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.whitebox{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+label{
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 25px;
+}
+.recommend{
+    display: flex;
+    margin-bottom: 20px;
+}
+.submit_button{
+    background-color: rgb(209, 101, 0);
+    border: none;
+}
+::placeholder{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.deptsel{
+    padding: 5px 25px 5px 8px;
+    background-color: rgb(235, 233, 233);
+}
+.entry_field{
+    padding: 8px 40px 8px 8px;
+}
+.selections{
+    font-weight: lighter;
+    font-size: 10px;
+}
+.improvement{
+    display: flex;
+}
+.entry_field{
+   border-width: 1px;
+}
+.dept_select{
+    padding:5px 58px 5px 5px;
+}
