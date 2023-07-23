@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px){
+    body{
+        background-color: blue;
+
+    } 
+    form{
+       display: flex; 
+       flex-direction: column;
+    }
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-color: red;
+
+    }
+}

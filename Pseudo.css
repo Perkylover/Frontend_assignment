@@ -1,0 +1,26 @@
+a:link{
+    color: blue;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover{
+    color: gold;
+}
+a:active{
+    color: darkturquoise;
+}
+p::first-line{
+    color: brown;
+    font-variant: small-caps;
+}
+/* div.floatey{
+    position: sticky;
+    /* left: 4rem; */
+    top: 30px;
+    border: 3px solid #4c2fcc;
+}
+div{
+    font-size: 5vw;
+    position: relative;
+} */
